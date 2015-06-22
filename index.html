@@ -1,17 +1,75 @@
 <html>
 
 <head>
-   <link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
-     <link href="./css/site.css" rel="stylesheet" type="text/css">
+  
+     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+     <link href="css/site.css" rel="stylesheet" type="text/css">
+     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+     <script src="assets/jquery/jquery-1.11.3.min.js"></script>
 </head>
 
-<body>
+<body id="">
+  <div class="container">
+    <div class="row header">
+      <div class="col-md-12 social">
+        <div class="fa-hover item">
+          <a href=""><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="fa-hover item">
+          <a href=""><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="fa-hover item">
+          <a href=""><i class="fa fa-envelope"></i></a>
+        </div>
+
+      </div>
+      <div class="col-md-12 heading"><h1>Malick Cisse</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="grid">
+          <div class="grid-sizer"></div>
+    <img src="images/500/1.png" class="grid-item grid-item--width2">
+    <img src="images/malick-ceesay-bw.png" class="grid-item">
+    <img src="images/250/2.png" class="grid-item">
+    <img src="images/250/3.png" class="grid-item">
+    <img src="images/500/4.png" class="grid-item--width2">
+    <img src="images/250/5.png" class="grid-item">
+    <img src="images/250/6.png" class="grid-item">
+    <img src="images/500/7.png" class="grid-item grid-item--width2">
+    <img src="images/250/8.png" class="grid-item">
+    <img src="images/250/9.png" class="grid-item">
+    <img src="images/250/10.png" class="grid-item">
+</div>
+
+<script type="text/javascript">
+
+    window.onload = function(){
+      var container = document.querySelector('.grid');
+var msnry = new Masonry( container, {
+  // options...
+  columnWidth: '.grid-sizer',
+// do not use .grid-sizer in layout
+itemSelector: '.grid-item',
+percentPosition: true,
+"gutter": 0
+});
+        // document.querySelector('.grid').gridify({srcNode: 'img', margin: '20px', width: '250px', resizable: true});
+    }
+</script>
+      </div>
+    </div>
+  </div>
   <center>
- <h3>MalickCisse</h3>
- <p>
-  Malik Ceesay, born in Banjul in 1960, lives and works in the village of Banjulunding. A self-taught artist with thirty years of experience, he believes that it is the artist’s mission to generate chaos, and then to restore order. His love for music, that he associates in terms of composition to color in painting, translates in the visual representation of musicians, instruments and concerts. Since 1983 he has participated in many exhibitions in The Gambia and abroad, including an exhibition at London’s Commonwealth Institute in 1987. In 2011 he exhibited at the International Waste to Art Workshop - Department of Fine Arts in Zaria (Nigeria). 
+
+ <p style="display: none;">
+  Malik Cisse, born in Banjul in 1960, lives and works in the village of Banjulunding. A self-taught artist with thirty years of experience, he believes that it is the artist's mission to generate chaos, and then to restore order. His love for music, that he associates in terms of composition to color in painting, translates in the visual representation of musicians, instruments and concerts. Since 1983 he has participated in many exhibitions in The Gambia and abroad, including an exhibition at London’s Commonwealth Institute in 1987. In 2011 he exhibited at the International Waste to Art Workshop - Department of Fine Arts in Zaria (Nigeria). 
  </p>
  </center>
+ <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+ <script src="assets/gridify/gridify.min.js"></script>
+ <script src="assets/masonry/masonry.pkgd.min.js"></script>
 </body>
 
 </html>
