@@ -3,20 +3,22 @@ body {
   font-weight: 400;
   line-height: 1.6;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #fff;
   color: #546678;
   font-size: 120%;
 }
 
 .header .social {
-  margin-top: 15px;
+  margin-top: 25px;
   text-align: center;
 }
 
 .header .social .item {
-  font-size: 1.1rem;
+  font-size: .8125rem;
   text-transform: uppercase;
   color: #8899a6;
+  letter-spacing: .125rem;
   -webkit-font-smoothing: antialiased;
   margin-right: 5px;
   display: inline;
@@ -24,9 +26,8 @@ body {
 
 .header .heading, .header .heading h1 {
   text-align: center;
-  margin-top: 5px;
-    color: #919191;
-  font-size: 1.9rem;
+ color: #2A2F36;
+  font-size: 1.875rem;
   line-height: .8;
   text-transform: uppercase;
   letter-spacing: .125rem;
